@@ -1,8 +1,8 @@
 """ 
 Пример работы с библиотекой vimeapi
 """
-import vimeapi
-api = vimeapi.VimeApi("DmhkmGH7uojHGXjrxMixR9gBXWLQjkz")
+import vimeapi, os
+api = vimeapi.VimeApi("token")
 class program(): 
     def moders(): 
         moders = []
@@ -32,7 +32,8 @@ class program():
 if __name__ == '__main__': 
     print(program.moders())
     try: 
-        print(program.userstats(input('Введите имя пользователя, ник которого вы хотите посмотреть: ')))
+        print(program.userstats(input('Введите ник пользователя, информациую которого хотите увидеть: ')))
+        os.system("Pause")
     except: 
         print('Ошибка при обращении к Api')
     
