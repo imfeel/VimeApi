@@ -1,3 +1,7 @@
+"""
+@author Yumix_
+@wiki https://github.com/imfeel/VimeApi/wiki
+"""
 import requests, logging
 
 def check_data_on_error(data):
