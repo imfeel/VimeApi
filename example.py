@@ -32,7 +32,7 @@ class program():
 if __name__ == '__main__': 
     print(program.moders())
     try: 
-        print(program.userstats(input('Введите ник пользователя, информациую которого хотите увидеть: ')))
+        print(program.userstats(input('Введите ник пользователя, информацию которого хотите увидеть: ')))
         os.system("Pause")
     except: 
         print('Ошибка при обращении к Api')
