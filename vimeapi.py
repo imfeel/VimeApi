@@ -1,6 +1,6 @@
 """
-@author Yumix_
-@wiki https://github.com/imfeel/VimeApi/wiki
+@author g1tufix
+@wiki https://github.com/g1tufix/VimeApi/wiki
 """
 import requests, logging
 
